@@ -1,3 +1,6 @@
+**Version 0.60.0.1**
+- Temporary: Set panel_admin to false
+
 **Version 0.60**
 - Switch Docker image to HA Debian base
 - Complete reengineering of the docker structure
