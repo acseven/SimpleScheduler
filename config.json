@@ -8,7 +8,7 @@
   "startup": "system",
   "panel_icon": "mdi:calendar-clock",
   "panel_title": "Scheduler",
-  "panel_admin": true,
+  "panel_admin": false,
   "boot": "auto",
   "hassio_api": true,
   "homeassistant_api": true,
