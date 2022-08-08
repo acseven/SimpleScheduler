@@ -5,7 +5,9 @@ ini_set('display_startup_errors', 1);
 include_once("conf.php");
 include_once("phpMQTT.php");
 
-date_default_timezone_set(get_ha_timezone());
+$current_timezone = get_ha_timezone();
+echo "HASSOS timezone: " . $current_timezone . "\n";
+date_default_timezone_set($current_timezone);
 
 $WORKDAY_SENSOR_ENABLED=false;
 
