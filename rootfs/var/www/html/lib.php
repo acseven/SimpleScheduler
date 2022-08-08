@@ -8,7 +8,7 @@ include_once("phpMQTT.php");
 $current_timezone = get_ha_timezone();
 echo "HASSOS timezone: " . $current_timezone . "\n";
 date_default_timezone_set($current_timezone);
-echo "Addon timezone: " . date_default_timezone_get() ."\n":
+echo "Addon timezone: " . date_default_timezone_get() ."\n";
 
 $WORKDAY_SENSOR_ENABLED=false;
 
