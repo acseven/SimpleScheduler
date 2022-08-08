@@ -10,6 +10,7 @@ echo "HASSOS timezone: " . $current_timezone . "\n";
 date_default_timezone_set($current_timezone);
 echo "Addon timezone: " . date_default_timezone_get() ."\n";
 echo 'PHP date.timezone: ' . ini_get('date.timezone') ."\n";
+echo 'TZ: ' . $TZ;
 
 $WORKDAY_SENSOR_ENABLED=false;
 
