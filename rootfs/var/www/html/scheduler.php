@@ -4,6 +4,8 @@
 	
 	include_once("lib.php");
 
+        echo '[' . date('r') . "] Timezone applied\n";
+
 	$max_retry = $options->max_retry;
 	
 	$command_queue[] = Array();
