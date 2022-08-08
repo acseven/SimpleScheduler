@@ -1,4 +1,4 @@
-**Version 0.60.0.1**
+**Version 0.60.0.2**
 - Temporary: timezone debug
 
 **Version 0.60.0.1**
