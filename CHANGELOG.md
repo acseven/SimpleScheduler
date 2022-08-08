@@ -1,4 +1,7 @@
 **Version 0.60.0.1**
+- Temporary: timezone debug
+
+**Version 0.60.0.1**
 - Temporary: Set panel_admin to false
 
 **Version 0.60**
